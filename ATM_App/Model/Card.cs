@@ -15,5 +15,9 @@
 
         public required int Balance { get; set; }
 
+        public List<Transaction> Transactions { get; set; } = [];
+
+        public List<Bill> Bills { get; set; } = [];
+
     }
 }
